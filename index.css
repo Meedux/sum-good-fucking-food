@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	/*background: url("img/Summer food-02.jpg") no-repeat;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+}
+
+.top {
+	display: flex;
+	background-color: #B28C4E;
+	color: #FFFAF3;
+	flex-direction: column;
+	align-items: center;
+	background-size: 100px;
+	/*border-radius: 2em;*/
+}
+
+a {
+	text-decoration: none;
+	color: #FFFAF3;
+	transition: 200ms;
+	/*justify-content: space-between;*/
+}
+
+ul {
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	align-self: center;
+	transition: 200ms;
+}
+
+#navbar li a:hover {
+	background-color: #FFE6BE;
+	border-radius: 2rem;
+	color: black;
+	padding: 1em;
+}
+
+.order, .contacts {
+	padding: 0 10px;
+}
+
+#titlebar {
+	font-family: "Noto Sans Mono";
+}
+
+#navbar {
+	font-family: "Noto Sans Mono";
+	padding-left: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	justify-content: center;
+
+	/*Contents*/
+	font-family: "Roboto Mono";
+	background: url("img/Summer food-02.jpg") no-repeat center;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#intro {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*justify-content: center;*/
+}
+
+#products {
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(178,140,78,0.4);
+	margin: 2em;
+	align-items: center;
+}
+
+.food {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	margin-bottom: 2em;
+}
+
+main img{
+	width: 70%;
+	height: auto;
+}
+
+.order:hover {
+	background-color: #FFE6BE;
+	border-radius: 2rem;
+	color: black;
+	padding: 1em;
+}
+
+.bot {
+	display: flex;
+	background-color: #241600;
+	color: #FFFAF3;
+	justify-content: center;
+	/*flex: 0;*/
+	position: relative;
+	height: auto;
+	margin-top: auto;
+}
+
